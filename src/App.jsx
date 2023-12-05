@@ -1,12 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Navbar from "./components/Navbar";
 
 const App = () => {
-  return (
-    <div className=''>
-        <h1>hello boys, are you ready to ride.</h1>
-    </div>
-  )
-}
+    return (
+        <div className="max-w-6xl mx-auto">
+            <Navbar />
+        </div>
+    );
+};
 
-export default App
+export default App;
