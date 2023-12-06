@@ -1,0 +1,5 @@
+.hero-section img {
+    mask-image: url("https://i.ibb.co/CHFhMnS/circle-splash.png");
+    mask-size: contain;
+    mask-repeat: no-repeat;
+}

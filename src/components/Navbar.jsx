@@ -14,7 +14,7 @@ const Navbar = () => {
                     />
                 </a>
             </div>
-            <div className="">
+            <div className="hidden md:block">
                 <a className="mx-4 text-xl text-primary" href="/home">
                     Home
                 </a>
