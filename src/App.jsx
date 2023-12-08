@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero";
 import Catagories from "./components/Catagories";
 import Menu from "./components/Menu";
 import Testimonials from "./components/Testimonials";
+import Services from "./components/Services";
 
 const App = () => {
     return (
@@ -13,7 +14,8 @@ const App = () => {
             <Hero />
             <Catagories />
             <Menu />
-            <Testimonials/>
+            <Testimonials />
+            <Services />    
         </div>
     );
 };
