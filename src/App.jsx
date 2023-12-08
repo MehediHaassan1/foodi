@@ -6,6 +6,7 @@ import Catagories from "./components/Catagories";
 import Menu from "./components/Menu";
 import Testimonials from "./components/Testimonials";
 import Services from "./components/Services";
+import Footer from "./components/Footer";
 
 const App = () => {
     return (
@@ -15,7 +16,8 @@ const App = () => {
             <Catagories />
             <Menu />
             <Testimonials />
-            <Services />    
+            <Services /> 
+            <Footer/>   
         </div>
     );
 };
