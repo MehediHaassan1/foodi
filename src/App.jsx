@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero/Hero";
 import Catagories from "./components/Catagories";
 import Menu from "./components/Menu";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
     return (
@@ -12,6 +13,7 @@ const App = () => {
             <Hero />
             <Catagories />
             <Menu />
+            <Testimonials/>
         </div>
     );
 };
