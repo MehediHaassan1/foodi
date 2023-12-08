@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero/Hero";
 import Catagories from "./components/Catagories";
+import Menu from "./components/Menu";
 
 const App = () => {
     return (
@@ -10,6 +11,7 @@ const App = () => {
             <Navbar />
             <Hero />
             <Catagories />
+            <Menu />
         </div>
     );
 };
